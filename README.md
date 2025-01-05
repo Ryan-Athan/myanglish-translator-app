@@ -76,7 +76,7 @@ myanglish-translator-app/
 **Visit http://localhost:5173/ in your browser to use the app.**
 
 ## Building for Production
- ** To create an optimized production build: **
+ **To create an optimized production build:**
 
  ```bash
  npm run build
