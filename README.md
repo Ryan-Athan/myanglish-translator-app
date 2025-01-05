@@ -80,6 +80,15 @@ myanglish-translator-app/
 
  ```bash
  npm run build
+ ```
+
+## Contributing
+
+- Feel free to fork the repository and make pull requests. Contributions are always welcome! ✨
+
+## License
+
+- This project is licensed under the MIT License.
 
 
 
