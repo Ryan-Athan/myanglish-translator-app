@@ -73,7 +73,7 @@ myanglish-translator-app/
        npm run dev
    ```
 
-**Visit http://localhost:3000 in your browser to use the app.**
+**Visit http://localhost:5173/ in your browser to use the app.**
 
 ## Building for Production
  ** To create an optimized production build: **
@@ -86,7 +86,7 @@ myanglish-translator-app/
 
 - Feel free to fork the repository and make pull requests. Contributions are always welcome! ✨
 
-## License
+## 📝 License
 
 - This project is licensed under the MIT License.
 
