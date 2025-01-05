@@ -55,26 +55,31 @@ myanglish-translator-app/
 
 ## Installation
 1. **Clone the repository**
-   ``` git clone https://github.com/yourusername/myanglish-translator-app.git
+   ```bash
+   git clone https://github.com/yourusername/myanglish-translator-app.git
    
 2. **Navigate to the project directory:**
-   ``` cd myanglish-translator-app
+   ```bash
+   cd myanglish-translator-app
    
 3. **Install dependencies:**
-   ``` npm install
+   ```bash
+    npm install
    
 ## Running the App
 
 **To start the development server:**
-``` npm run dev
-```
+```bash
+ npm run dev
 
-***Visit http://localhost:3000 in your browser to use the app.***
+
+**Visit http://localhost:3000 in your browser to use the app.**
 
 ## Building for Production
  ** To create an optimized production build: **
 
- ``` npm run build
+ ```bash
+ npm run build
 
 
 
