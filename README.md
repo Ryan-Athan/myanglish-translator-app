@@ -46,7 +46,7 @@ myanglish-translator-app/
 └── README.md                # Documentation (you're reading it!)
 ```
 
-#🚀 Getting Started
+# 🚀 Getting Started
 
 ## Prerequisites
 *Ensure you have the following installed on your system:*
@@ -69,9 +69,9 @@ myanglish-translator-app/
 ## Running the App
 
 **To start the development server:**
-```bash
- npm run dev
-
+   ```bash
+       npm run dev
+   ```
 
 **Visit http://localhost:3000 in your browser to use the app.**
 
