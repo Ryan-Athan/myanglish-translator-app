@@ -1,12 +1,17 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  publicDir: 'public', // Serve assets from the root `public` folder
+  root: '.', // Root directory remains the project root
   build: {
+    outDir: './dist', // Output build files in the `dist` folder
     rollupOptions: {
-      external: ['@fortawesome/react-fontawesome', '@fortawesome/free-solid-svg-icons'],
+      input: './index.html', // Entry HTML file in the project root
+    },
+  },
+  server: {
+    watch: {
+      usePolling: true, // Ensures compatibility with different environments
     },
   },
 });
