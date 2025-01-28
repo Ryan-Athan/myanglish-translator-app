@@ -3,6 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: var(--bg-color); /* Use CSS variables for theme */
+  color: var(--text-color);
 }
 
 .logo {
@@ -35,6 +37,9 @@
 
 .card {
   padding: 2em;
+  background-color: var(--card-bg-color); /* Use CSS variables for theme */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .read-the-docs {
